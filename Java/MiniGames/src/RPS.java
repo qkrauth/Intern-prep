@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class RPS1 {
+public class RPS {
     public static void main(String[] args) {
 
         String[] options = {"r", "p", "s"};
