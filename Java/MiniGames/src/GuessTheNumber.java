@@ -25,12 +25,11 @@ public class GuessTheNumber {
                     System.out.println("too low.");
                 }
             }
+
+            System.out.print("Care to play again? (y for yes): ");
+            response = scanner.next();
         }
         while (response.equals("y"));
-
-        System.out.print("Care to play again? (y for yes): ");
-        response = scanner.next();
-
     }
 
     public static void intro() {
